@@ -91,3 +91,11 @@ for item in my_set:
 print(my_dict)
 
 print(sorted(my_dict.items(), key=lambda my_dict:my_dict[1], reverse=True))
+
+item = {
+    "id": 123
+}
+
+print(item)
+item.update({'name': 'test'})
+print(item)
